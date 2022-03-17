@@ -1,0 +1,176 @@
+body {
+    overflow: hidden;
+}
+
+#empresa{
+    display: none 
+}
+#imagemAtual{
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    z-index: 1;
+    box-shadow: 2px #8c8c8c;
+}
+
+#addCarrinho{
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    z-index: 4;
+    background-color: rgba(40,40,40,0.8);
+    opacity: 0;
+    pointer-events: none;
+}
+
+.addCarrinho {
+    font-size: xx-large;
+    margin: 0;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    z-index: 2;
+    transform: translate(-50%, -50%) }
+
+#recusar{
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    z-index: 4;
+    background-color: rgba(40,40,40,0.8);
+    opacity: 0;
+    pointer-events: none;
+}
+
+.recusar {
+    font-size: xx-large;
+    margin: 0;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    z-index: 2;
+    transform: translate(-50%, -50%) }
+
+#imagemAnterior{
+    top: -2000px;
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    z-index: 2;
+}
+
+#proximaImagem{
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    z-index: 0;
+}
+
+#croma{
+    overflow:hidden;
+    background: black;
+    width: 100vw;
+    height: 100vh
+}
+
+
+
+#categoriaanterior{    
+    opacity: 0.8;
+    width: 100vw;
+    height: 60px;
+    position:absolute;
+    z-index: 2;
+}
+
+#pesquisar{   
+    background-color: white;
+    border-radius: 30px;
+    width: 50px;
+    height: 50px;
+    position:absolute;
+    z-index: 3;
+    opacity: 0.8;
+    margin: 5px;
+    transition: width 1s;
+}
+
+#inputPesquisar{
+    border: none;
+    font-size: x-large;
+    color: #8c8c8c;
+    display: none;
+}
+.fas {
+    margin: 18px 13px;
+    color: #8c8c8c;
+}
+
+#carrinho{   
+    background-color: white;
+    border-radius: 30px;
+    width: 50px;
+    height: 50px;
+    position:absolute;
+    z-index: 3;
+    opacity: 0.8;
+    margin: 5px;
+    bottom:0;
+    right: 0;
+}
+
+
+#infos{
+    z-index: 3;
+    height: 150px;
+    width: 80vw;
+    margin: 10px;
+    position: absolute;
+    bottom: 30px;
+    pointer-events: none;
+}
+#preco{   
+    background-color: white;
+    border-radius: 22px;
+    width: 125px;
+    height: 44px;
+    opacity: 0.9;
+    margin: 5px 0px
+}
+.preco{ 
+    font-size: x-large;
+    background-color: white;
+    border-radius: 22px;
+    width: 125px;
+    height: 44px;
+    opacity: 0.9;
+    text-align: center;
+    padding: 9px;
+    margin: 5px 0px;
+}
+#produto {
+    font-size: x-large;
+    text-shadow: 0px 0px 5px black;
+    color: white;
+}
+
+
+#descricao {
+    font-size: small;
+    text-shadow: 0px 0px 5px black;
+    color: white;
+}
+
+
+#categoriaproxima{
+    opacity: 0.8;
+    bottom:0;    
+    width: 100vw;
+    height: 60px;
+    position:absolute;
+    z-index: 2;
+}
